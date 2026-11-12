@@ -1,18 +1,18 @@
 # Personal Finance Ledger & Budget Dashboard (Excel)
 
 ## 📌 Project Overview
-The Financial Expenses Ledger is a robust personal finance tracker and budget allocation engine developed entirely inside Microsoft Excel. Designed to replace static expense tables, this repository showcases two distinct data tracking architectures (`monthly_ledger_v1.xlsx` and `daily_budget_tracker_v2.xlsx`) built to ingest daily cash-flow items, parse categorical spending spreads, and optimize personal capital runway preservation.
+The Financial Expenses Ledger is a robust personal finance tracker and budget allocation engine developed entirely inside Microsoft Excel. Designed to replace static expense tables, this repository showcases two distinct data tracking architectures (`MINI PROJECT - MONTHLY LEDGER V1.xlsx` and `MINI PROJECT - DAILY BUDGET TRACKER.xlsx`) built to ingest daily cash-flow items, parse categorical spending spreads, and optimize personal capital runway preservation.
 
 ---
 
 ## 📊 Comparative Sheet Architectures & Models
 
-### 🗺️ Data Architecture 1: Macro Ledger (`monthly_ledger_v1.xlsx`)
+### 🗺️ Data Architecture 1: Macro Ledger (`MINI PROJECT - MONTHLY LEDGER V1.xlsx`)
 This framework focuses on high-level parameter grouping, mapping cash-flow movements directly across core financial pillars: `FOOD`, `FUN`, `OFFICE`, and `INVESTMENT`.
 * Leverages horizontal cross-binning to route row expenditures automatically from a master input column straight into individual asset category columns.
 * Includes summary aggregation blocks tracking a **TOTAL COST** of `21,745` and an **AVERAGE COST** of `1,812.08` across all tables.
 
-### 🗺️ Data Architecture 2: Micro Tracker (`daily_budget_tracker_v2.xlsx`)
+### 🗺️ Data Architecture 2: Micro Tracker (`MINI PROJECT - DAILY BUDGET TRACKER.xlsx`)
 This workbook introduces a highly granular reporting layer, expanding tracking boundaries to include academic expenses (`STUDIES`) alongside detailed daily threshold limits.
 * Maps detailed daily item descriptions like Thali orders, Python study resources, and digital metro passes natively.
 * Employs advanced functions to track localized metrics: a **Total for the Day** of `21,210`, **Highest Expense** (`10,000`), and **Lowest Expense** (`10`).
