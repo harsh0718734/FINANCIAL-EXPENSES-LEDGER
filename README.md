@@ -1,14 +1,14 @@
-# Personal Finance Ledger & Budget Dashboard
+# Personal Finance Ledger & Budget Tracker (Excel)
 
 ## 📌 Project Overview
-This personal finance project focuses on the structured tracking, categorization, and visual analysis of daily and monthly expenses within Microsoft Excel. The primary objective was to replace static expense lists with an automated, formula-driven ledger system that calculates real-time spending totals and category averages.
+This personal finance project focuses on the structured tracking, categorization, and visual analysis of daily and monthly expenses within Microsoft Excel. The primary objective was to replace static expense lists with an automated, formula-driven Excel ledger system that calculates real-time spending totals and category averages.
 
-By applying nested logical formulas, strict cell anchoring, and visual formatting rules across two complementary workbooks (`MINI PROJECT - MONTHLY LEDGER V1.xlsx` and `MINI PROJECT - DAILY BUDGET TRACKER.xlsx`), this project isolates key spending indicators to monitor cash outflows, separate essential expenses from investments, and highlight high-cost categories at a glance.
+By applying nested logical formulas, strict cell anchoring, and visual formatting rules across two complementary Excel workbooks (`MINI PROJECT - MONTHLY LEDGER V1.xlsx` and `MINI PROJECT - DAILY BUDGET TRACKER.xlsx`), this project isolates key spending indicators to monitor cash outflows, separate essential expenses from investments, and highlight high-cost categories at a glance.
 
 ---
 
 ## 🛠️ Data Structuring, Validation & Formula Logic
-To ensure calculation accuracy as new expense entries are added, the following spreadsheet rules and formula structures were implemented across both workbooks:
+To ensure calculation accuracy as new expense entries are added, the following spreadsheet rules and formula structures were implemented across both Excel workbooks:
 
 * **Automated Category Routing (`IF` Logic):** Built nested `IF` formulas across the category columns (`Food`, `Fun`, `Office`, `Studies`, and `Investment`) to automatically route each transaction amount into its matching category lane based on the `Type` label.
 * **Strict Absolute Cell Anchoring (`$`):** Programmed summary formulas using fixed cell references (`$A$1` style anchoring) so totals, averages, and thresholds stay locked onto target ranges without reference shifting.
@@ -30,8 +30,8 @@ The repository houses two distinct Excel tracking architectures tailored to mont
 
 ---
 
-## 🎛️ Visual Charts & Dashboard Enhancements
-To make spending patterns easy to review without scanning row by row, custom charts and visual cues were integrated beside each ledger table:
+## 🎛️ Excel Charts & Visual Enhancements
+To make spending patterns easy to review without scanning row by row, custom Excel charts and visual cues were integrated beside each ledger table:
 
 * **Monthly Amount Distribution Pie Chart:** Built a 3D Pie Chart (`AMOUNT`) with a color-coded itemized legend in the Monthly Ledger, removing crowded slice labels to show major capital allocations clearly.
 * **Daily Budget Clustered Column Chart:** Built a side-by-side column chart (`DAILY BUDGET TRACKER`) comparing spending levels across `Food`, `Fun`, `Investment`, `Office`, and `Studies`.
